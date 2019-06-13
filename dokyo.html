@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+
+ 
+
+<html>
+
+ 
+
+<head>
+
+ 
+
+	<title></title>
+
+ 
+
+<style>
+
+ 
+
+*{
+
+ 
+
+	padding: 0;
+
+ 
+
+	margin: 0;
+
+ 
+
+}
+
+ 
+
+.clear{
+
+ 
+
+	clear:both;
+
+ 
+
+	margin-top : 20px;
+
+ 
+
+	margin-bottom: 20px;
+
+ 
+
+	text-align: center;
+
+ 
+
+	background-color: cyan;
+
+ 
+
+ 
+
+ 
+
+ 
+
+	
+
+ 
+
+}
+
+ 
+
+header{
+
+ 
+
+	width:1000px;
+
+ 
+
+	height: 100px;
+
+ 
+
+	margin-top: 10px;
+
+ 
+
+	
+
+ 
+
+}
+
+ 
+
+#logo{
+
+ 
+
+	margin-top: 20px;
+
+ 
+
+	float:left;
+
+ 
+
+}
+
+ 
+
+#top{
+
+ 
+
+	float:right;
+
+ 
+
+	margin:30px 20px 0 0;
+
+ 
+
+}
+
+ 
+
+nav{
+
+ 
+
+	width: 1000px;
+
+ 
+
+	height: 90px;
+
+ 
+
+	margin-top: 10px;
+
+ 
+
+	border:solid 1px #cccccc;
+
+ 
+
+	text-align: left;
+
+ 
+
+ 
+
+}
+
+ 
+
+nav li{
+
+ 
+
+	float:center;
+
+ 
+
+	margin:25px 50px;
+
+ 
+
+	text-align: center;
+
+}
+
+ 
+
+li{
+
+ 
+
+	list-style-type: none;
+
+ 
+
+}
+
+ 
+
+section{
+
+ 
+
+	float: left;
+
+ 
+
+	margin-top: 10px;
+
+ 
+
+	border:solid 1px #cccccc;
+
+ 
+
+}
+
+ 
+
+aside{
+
+ 
+
+	float: left;
+
+ 
+
+	margin-left: 30px;
+
+ 
+
+	margin-top:20px;
+
+ 
+
+ 
+
+ 
+
+	
+
+ 
+
+}
+
+ 
+
+aside li{
+
+ 
+
+	margin-bottom: 20px;
+
+ 
+
+}
+
+ 
+ 
+
+footer{
+
+ 
+	background-image: url("./img/japan5.jpg");
+
+	background-size: 475px 470px;
+
+	width: 1000px;
+
+ 
+
+	height: 100px;
+
+ 
+
+	margin-top:40px;
+
+ 
+
+	border:solid 2.5px black;
+
+	color: black;
+
+	font-size: 24px;
+
+	font-style: bold;
+
+}
+
+
+ 
+
+#address{
+
+ 
+
+	float: left;
+
+ 
+
+	margin: 30px 0 0 20px;
+
+ 
+
+}
+
+ 
+
+#customer{
+
+ 
+
+	float:right;
+
+ 
+
+	margin: 30px 0 0 180px;
+
+ 
+
+}
+
+ 
+
+#page{
+
+ 
+
+	width:1000px;
+
+ 
+
+	margin: auto;
+
+ 
+
+	
+
+ 
+
+}
+
+ 
+
+h2{
+
+ 
+
+ 
+
+	color : gray;
+
+ 
+
+}
+
+ 
+
+.dropdown{
+
+ 
+
+		display:inline-block;
+
+		margin: 20px 20px 20px	;
+
+ 
+
+	}
+
+ 
+
+	.dropdownContents{
+
+ 
+
+		display: none;
+
+		position: absolute;
+
+		padding: 1px 20px 15px 1px;
+
+ 
+
+		
+
+ 
+
+	}
+
+ 
+
+	.dropdown:hover .dropdownContents{
+
+ 
+
+		display :inline-block;
+		background-color: white;
+	}
+
+h4{
+	float : right;
+}
+ body{
+ 	background-color:#E4E4E4
+ }
+#link{
+	text-decoration: none;
+	color :gray;
+}
+ .image{
+
+ 	margin : 0 auto;
+ }
+
+
+.box {
+   
+    width: 100px;
+    height: 100px;
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -ms-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+    
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+
+    text-align: center;
+
+
+}
+
+.box:hover {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    transform: scale(0.5);
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="page">
+
+ 
+
+	<header>
+
+ <a href = "lo.html"> 홈으로 </a>
+
+		<div id="logo">
+
+ 
+
+		<img src="./img/skytree2.jpg" width =1000 height = 300 >
+
+ 
+
+		</div>
+
+ 
+
+	</header>
+
+ 
+
+	<p>
+
+ 
+
+	<div class="clear"></div>
+
+ 
+
+<nav>
+
+	<div class = "dropdown">
+
+ 
+
+	<ul><h2> <a href = "lo.html"> 여행지 </a></h2>
+
+	<div class="dropdownContents">
+		<li><a href = "osaka.html"><h2> 오사카 </a></h2></li>
+
+		<li> <a href ="dokyo.html"><h2> 도쿄 </a></h2> </li>
+
+
+		<li> <a href = "satforo.html"><h2> 삿포로 <a></h2> </li>
+
+
+
+	</div>
+	
+</div>
+
+
+
+<h4> <a href = "login.html">로그인</a> | 회원가입 </h4>
+</nav>
+
+ 
+	
+<BR>
+<BR>
+
+		<img src="./img/dokyomain.PNG" width =1000 height= 290>
+		<br>
+		<br>
+
+<div class  = "image">
+
+
+	<img src = "./img/c1.PNG" width = 242 >
+
+	<img src = "./img/c2.PNG"width = 242>
+
+	<img src = "./img/c3.PNG"width = 242>
+	
+
+	<img src = "./img/c4.PNG"width = 242>
+
+	<img src = "./img/d1.PNG" width = 242 >
+	<img src = "./img/d2.PNG"width = 242>
+	<img src = "./img/d3.PNG"width = 242>
+	<img src = "./img/d4.PNG"width = 242>
+	<br>
+<br>
+<br>
+	<img src = "./img/c5.PNG" width = 242 >
+	<img src = "./img/c6.PNG"width = 242>
+	<img src = "./img/c7.PNG"width = 242>
+	<img src = "./img/c8.PNG"width = 242>
+
+	<img src = "./img/d5.PNG" width = 242 >
+	<img src = "./img/d6.PNG"width = 242>
+	<img src = "./img/d7.PNG"width = 242>
+	<img src = "./img/d8.PNG"width = 242>
+
+</div>
+
+
+
+<br>
+
+<h3> 인천 ↔ 도쿄
+2시간 10분</h3>
+<br>
+
+	<footer>
+
+ 
+
+		<div id="address">
+
+ 
+
+		 <ul>
+
+ 
+
+		  <li>학번 : 20192652 </li>
+
+ 
+
+		  <li>이름 : 박치영</li>
+
+ 
+
+		</div>
+
+ 
+
+		<div id="customer">
+
+ 
+
+			1학기 기말고사 
+
+ 
+
+		</div>
+
+ 
+
+	</footer>
+
+
+</body>
+</html>
